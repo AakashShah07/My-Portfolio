@@ -4,7 +4,7 @@ A modern, animated developer portfolio built with **Next.js 14**, **TypeScript**
 
 ## Live Preview
 
-> _Coming soon_
+[https://aakashshah.dpdns.org](https://aakashshah.dpdns.org/)
 
 ## Features
 
