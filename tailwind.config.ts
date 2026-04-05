@@ -9,8 +9,23 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        accent: "#E63946",
+        dark: "#0a0a0a",
+        secondary: "#aaaaaa",
+      },
+      fontFamily: {
+        display: ["var(--font-bebas-neue)", "sans-serif"],
+        mono: ["var(--font-dm-mono)", "monospace"],
+      },
+      animation: {
+        blink: "blink 1s step-end infinite",
+        bounce_slow: "bounce 2s infinite",
+      },
+      keyframes: {
+        blink: {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0" },
+        },
       },
     },
   },
